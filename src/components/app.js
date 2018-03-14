@@ -1,17 +1,16 @@
 import React,  { Component }  from 'react';
-import Header from 'Header';
-import Section from 'Section';
+import Header from './Header';
+import Section from './Section';
 
-class App extends Component {
-  render() {
+const App = () => {
+
     return (
-      <div className="App">
+      <div >
         <Header />
         <Section />
-
       </div>
     );
-  }
+  
 }
 
 export default App;
